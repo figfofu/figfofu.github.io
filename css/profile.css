@@ -6,7 +6,17 @@ body {
     color: limegreen;
 }
 .User .ratings-row {
-    display: none;
+    display: none !important;
+}
+.User i.ogs-turtle:before {
+    color: green;
+}
+.fa-bolt:before {
+    color: yellow
+}
+
+.fa-clock-o:before {
+    color: darkcyan
 }
 .container {
     max-width: none !important;
