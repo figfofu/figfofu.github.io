@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2021-05-23T05:35:56.491Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="hIba-4W_qYRTiYAMIZmV" version="14.7.0" type="github">
+  <diagram id="o0vHhNMyrRueBM5M8kus" name="Page-1">
+    <mxGraphModel dx="1385" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2KJanrXDiN1D2x8BiQLw-1" value="Hiện tại" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="680" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="2KJanrXDiN1D2x8BiQLw-4" value="La Thanh Đế Quốc" style="swimlane;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="2KJanrXDiN1D2x8BiQLw-1">
+          <mxGeometry x="40" y="60" width="600" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="2KJanrXDiN1D2x8BiQLw-5" value="Hồ Phi&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="2KJanrXDiN1D2x8BiQLw-4">
+          <mxGeometry x="205" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2KJanrXDiN1D2x8BiQLw-7" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;" edge="1" parent="2KJanrXDiN1D2x8BiQLw-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="100" as="sourcePoint" />
+            <mxPoint x="310" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2KJanrXDiN1D2x8BiQLw-8" value="chung kết cờ vây của thập nhị vương quốc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2KJanrXDiN1D2x8BiQLw-4">
+          <mxGeometry x="190" y="40" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2KJanrXDiN1D2x8BiQLw-9" value="Hồ Đức" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#e51400;strokeColor=#B20000;labelPosition=center;align=center;" vertex="1" parent="2KJanrXDiN1D2x8BiQLw-4">
+          <mxGeometry x="275" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2KJanrXDiN1D2x8BiQLw-18" value="Phụ tử" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2KJanrXDiN1D2x8BiQLw-4">
+          <mxGeometry x="180" y="175" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2KJanrXDiN1D2x8BiQLw-20" value="Tam Tinh Y Sư Vi Tuất" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="2KJanrXDiN1D2x8BiQLw-4">
+          <mxGeometry x="400" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2KJanrXDiN1D2x8BiQLw-21" value="cửu tuyền tuyệt mệnh châm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="2KJanrXDiN1D2x8BiQLw-4">
+          <mxGeometry x="305" y="195" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2KJanrXDiN1D2x8BiQLw-6" value="Túy Vân Kỳ Nhân" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="446" y="178" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2KJanrXDiN1D2x8BiQLw-19" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="300" as="sourcePoint" />
+            <mxPoint x="340" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2KJanrXDiN1D2x8BiQLw-22" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="330" as="sourcePoint" />
+            <mxPoint x="500" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
