@@ -1,0 +1,14 @@
+self.__RSC_CSS_MANIFEST={
+  "cssImports": {
+    "/Users/bdb/Projects/figfofu.github.io/binh-profile/src/app/layout.tsx": [
+      "/Users/bdb/Projects/figfofu.github.io/binh-profile/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "/Users/bdb/Projects/figfofu.github.io/binh-profile/src/app/globals.css"
+    ]
+  },
+  "cssModules": {
+    "/Users/bdb/Projects/figfofu.github.io/binh-profile/src/app/gia-pha/page": [
+      "/Users/bdb/Projects/figfofu.github.io/binh-profile/src/app/globals.css",
+      "/Users/bdb/Projects/figfofu.github.io/binh-profile/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ]
+  }
+}

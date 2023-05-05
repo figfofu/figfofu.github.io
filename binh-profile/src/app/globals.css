@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#experience > div,
+#education > div,
+#certificate > div,
+#language > div {
+  justify-content: flex-start;
+}
