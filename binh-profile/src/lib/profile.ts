@@ -18,12 +18,12 @@ export const PROFILE: Profile = {
     {
       type: "facebook",
       name: "Facebook",
-      url: "",
+      url: "https://www.facebook.com/bui.d.binh.9/",
     },
     {
       type: "linkedin",
       name: "LinkedIn",
-      url: "",
+      url: "https://www.linkedin.com/in/buiducbinh/",
     },
   ],
   jobExperiences: [
