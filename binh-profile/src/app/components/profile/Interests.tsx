@@ -31,7 +31,7 @@ const Interests = ({ interests }: Props) => {
     <div>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         {interests.map((interest, index) => (
-          <div className="border rounded-lg">
+          <div className="border rounded-lg" key={index}>
             <img
               className="h-auto max-w-full rounded-lg"
               src={getSrc(interest.id)}

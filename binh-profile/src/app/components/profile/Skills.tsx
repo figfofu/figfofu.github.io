@@ -24,9 +24,13 @@ const Skills = ({ profile }: Props) => {
   return (
     <div>
       <div className="flex flex-wrap">
-        {profile.jobExperiences.map((job, index) =>
+        {profile.jobExperiences.map((job, ind) =>
           job.skills.map((skill, index) => (
-            <Badge color={getBadgeColor(String(job.id))} className="m-2">
+            <Badge
+              color={getBadgeColor(String(job.id))}
+              className="m-2"
+              key={index}
+            >
               {skill}
             </Badge>
           ))
@@ -35,7 +39,11 @@ const Skills = ({ profile }: Props) => {
       <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
       <div className="flex flex-wrap">
         {profile.jobExperiences.map((job, index) => (
-          <Badge color={getBadgeColor(String(job.id))} className="m-2">
+          <Badge
+            color={getBadgeColor(String(job.id))}
+            className="m-2"
+            key={index}
+          >
             {job.company}
           </Badge>
         ))}
