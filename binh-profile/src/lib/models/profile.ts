@@ -9,7 +9,7 @@ export type Profile = {
   about: string;
   jobExperiences: JobExperience[];
   educations: Education[];
-  skills: string[];
+  skills: SkillSummary[];
   projects: Project[];
   socials: Social[];
   languages: Language[];
@@ -20,6 +20,7 @@ export type Profile = {
   certificates: Certification[];
   publications: Publication[];
 };
+
 export type Contact = {
   type: string;
   name: string;
@@ -46,14 +47,33 @@ export type Education = {
   to: string;
 };
 
-export type Skill = {
-  name: string;
+export type SkillCategory = string;
+export const SKILL_CATEGORIES: SkillCategory[] = [
+  "Programming Languages",
+  "Frameworks",
+  "Databases",
+  "Cloud Computing",
+  "Tools",
+  "Others",
+  "Operating System",
+  "AI & Machine Learning",
+  "Cloud Computing",
+];
+export type SkillSummary = {
+  title: string;
+  details: string[];
+  category: SkillCategory;
 };
 
 export type Project = {
+  id: string;
+  from: string;
+  to: string;
   name: string;
   desc: string;
+  details: string[];
   skills: string[];
+  job_desc: string;
 };
 
 export type Social = {

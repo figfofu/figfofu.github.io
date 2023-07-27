@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Profile } from "@/lib/models/profile";
 import { Button, Card, Modal } from "flowbite-react";
 import banner from "../../images/banner.png";
+import profileImg from "../../images/profile.jpeg";
 import { fullName } from "@/lib/profile";
 import React from "react";
 import MyContact from "./Contact";
@@ -13,6 +14,7 @@ import MyCertificate from "./Certificate";
 import Publications from "./Publications";
 import Skills from "./Skills";
 import Interests from "./Interests";
+import Projects from "./Projects";
 // const cardVariants: Variants = {
 //   offscreen: {
 //     x: -1000,
@@ -70,7 +72,7 @@ const MainInfo = ({ profile }: Props) => {
         <div className="flex flex-col items-center pb-10">
           <img
             className="mb-3 h-24 w-24 rounded-full shadow-lg"
-            src="https://media.licdn.com/dms/image/C4D03AQGaMYcWX_Cyww/profile-displayphoto-shrink_800_800/0/1517495042616?e=1687996800&v=beta&t=RxzEXEtjZXT5_HPbytNg13gMo0lysKRSEqLLgROwsx8"
+            src={profileImg.src}
             alt={fullName(profile)}
           />
           <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
@@ -138,6 +140,20 @@ const MainInfo = ({ profile }: Props) => {
           </div>
         </Card>
       </div>
+      <div className="w-full mt-8 flex flex-col lg:flex-row">
+        <Card
+          className="w-full mt-6 lg:mt-0 lg:mr-4 flex-1 lg:w-full justify-center"
+          id="projects"
+        >
+          <h5 className="text-2xl font-bold text-gray-900 dark:text-white text-center">
+            Projects
+          </h5>
+          <div className="flex justify-start lg:justify-center px-4 pt-4">
+            <Projects projects={profile.projects} />
+          </div>
+        </Card>
+      </div>
+
       <motion.div
         className="w-full mt-8 flex flex-col lg:flex-row"
         initial="offscreen"

@@ -1,5 +1,8 @@
 import { Profile } from "@/lib/models/profile";
-import ListItem, { LanguageListItem } from "../common/ListItem";
+import ListItem, {
+  GeneralListItem,
+  LanguageListItem,
+} from "../common/ListItem";
 import { Badge } from "flowbite-react";
 
 type Props = {
@@ -23,6 +26,34 @@ const Skills = ({ profile }: Props) => {
   }
   return (
     <div>
+      <div className="flex flex-wrap flex-col">
+        {profile.skills.map((skill, index) => {
+          return (
+            <div key={index}>
+              <ListItem
+                key={index}
+                item={{
+                  icon: null,
+                  title: skill.category,
+                  subTitle: (
+                    <GeneralListItem
+                      name={skill.title}
+                      desc={skill.details.map((sk, index) => {
+                        return (
+                          <div key={index} className="flex flex-wrap">
+                            {sk}
+                          </div>
+                        );
+                      })}
+                    />
+                  ),
+                }}
+                onPress={() => {}}
+              />
+            </div>
+          );
+        })}
+      </div>
       <div className="flex flex-wrap">
         {profile.jobExperiences.map((job, ind) =>
           job.skills.map((skill, index) => (

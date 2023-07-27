@@ -26,7 +26,7 @@ type ListItemProps = {
 
 type GeneralListItemProps = {
   name: string;
-  desc: string;
+  desc: string | ReactNode;
 };
 
 const ListItem = ({ item, onPress }: Props) => {
