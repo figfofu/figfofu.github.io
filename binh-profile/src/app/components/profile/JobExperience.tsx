@@ -8,6 +8,7 @@ import ibm from "../../images/ibm.svg";
 import habibi from "../../images/8mart.jpeg";
 import sunity from "../../images/sunity.png";
 import utagoe from "../../images/utagoe.png";
+import settler from "../../images/settler.png";
 
 type Props = {
   experiences: JobExperience[];
@@ -24,6 +25,8 @@ const MyJobExperience = ({ experiences }: Props) => {
         return <img src={sunity.src} alt="lhp" style={{ minWidth: 48 }} />;
       case "utagoe":
         return <img src={utagoe.src} alt="lhp" style={{ minWidth: 48 }} />;
+      case "settler":
+        return <img src={settler.src} alt="lhp" style={{ minWidth: 48 }} />;
       default:
         return null;
     }

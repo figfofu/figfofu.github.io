@@ -28,13 +28,32 @@ export const PROFILE: Profile = {
   ],
   jobExperiences: [
     {
+      id: "settler",
+      company: "Settler, Inc",
+      address: "",
+      companyDesc: "Trading Card Platform (app.torecaswap.com)",
+      position: "Software Developer",
+      from: "Sep 2023",
+      to: "now",
+      skills: [
+        "Amazon Web Services (AWS)",
+        "MySQL",
+        "NextJS",
+        "GitHub",
+        "GitHub Action",
+        "Panda (CSS Framework)",
+        "JavaScript",
+        "Docker",
+      ],
+    },
+    {
       id: "habibi",
       company: "Habibi, Inc",
       address: "",
       companyDesc:
         "A Proxy Shopping Service of Japanese Products, 8mart Japan (8mart.jp)",
       position: "Chief Technology Officer",
-      from: "Jan 2022",
+      from: "Sep 2023",
       to: "now",
       skills: [
         "Amazon Web Services (AWS)",
@@ -294,6 +313,19 @@ export const PROFILE: Profile = {
       details: [
         "Programming Language: Ruby on Rails, Javascript, React, VueJS",
         "Role: CTO, Fullstack developer",
+      ],
+      skills: [],
+      job_desc: "",
+    },
+    {
+      id: "settler",
+      name: "TorecaSwap",
+      desc: "Trading Card Service",
+      from: "",
+      to: "",
+      details: [
+        "Programming Language: Javascript, NextJS, Docker, MySQL",
+        "Role: Fullstack developer",
       ],
       skills: [],
       job_desc: "",
